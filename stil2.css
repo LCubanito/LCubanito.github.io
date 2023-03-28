@@ -1,0 +1,47 @@
+*{ 
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #0a0b0c;
+    padding: 1px;
+    
+  }
+  
+  .title {
+    font-size: 28px;
+    color: #f0eff3;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+img {
+    width: 100%;
+    
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+
+}
+
+.column img {
+    margin-top: 1px;
+
+}
+
+
